@@ -124,7 +124,7 @@ def test_for_loop_with_enumerate():
 
     list1 = ['Python']
     for index, element in enumerate(list1):
-        assert index == ___, element == ____
+        assert index == 0 , element == 'Python'
 
 
 def test_for_loop_with_enumerate_start():
@@ -136,4 +136,4 @@ def test_for_loop_with_enumerate_start():
 
     list1 = ['Python']
     for index, element in enumerate(list1, start=1):
-        assert index == ___, element == ____
+        assert index == 1, element == 'Python'
